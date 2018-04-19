@@ -10,7 +10,7 @@ public class SubtractorTest {
 	public void testSub() {
 		subtractor = new Subtractor();
 		int expectedValue = 0;
-		int actualValue = subtractor.subctract(2, 2);
+		int actualValue = subtractor.subtract(2, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
 }
