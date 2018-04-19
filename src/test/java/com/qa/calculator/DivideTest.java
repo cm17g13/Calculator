@@ -9,7 +9,7 @@ public class DivideTest {
 	@Test
 	public void testDivide() {
 		Divide = new Divide();
-		int expectedValue = 4;
+		int expectedValue = 1;
 		int actualValue = Divide.divide(2, 2);
 		Assert.assertEquals(expectedValue, actualValue);
 	}
